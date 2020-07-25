@@ -1,0 +1,131 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(236, 236, 236);
+  color: rgb(109, 109, 109);
+}
+nav {
+  display: flex;                   /* 1 */
+  /* align-items: center;          */
+  justify-content: flex-end;  /* 3 */
+  text-align: right;
+}
+img {
+  width: 20px;
+  border-radius: 50%;
+}
+p,a {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(26, 119, 212);
+}
+p {
+  color: rgb(109, 109, 109);
+}
+.ask {
+  margin-top: 0;
+  font-size: 12px;
+  height: 30px;
+}
+#sign-in {
+  display: inline;
+  margin-left: 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: rgb(23, 122, 221);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 35px;
+  width: 110px; 
+  font-size: 14px;
+  vertical-align: sub;
+  cursor: pointer;
+}
+/* MAIN */
+main {
+  justify-items: center;
+  
+}
+.main-title {
+  display: grid;
+  justify-items: center;
+}
+.title-title {
+  padding-top: 2rem;
+}
+.logos {
+  display: flex;                   /* 1 */
+  /* align-items: center;          */
+  justify-content: flex-end;  /* 3 */
+}
+.logo {
+  display: flex;                 
+  margin-left: .2rem;
+  margin-right: .2rem;
+}
+.logoi {
+  width: 25px;
+  height: 25px;
+  margin-right: .2rem;
+}
+
+form {
+  display: grid;
+  border: 1px solid rgb(192, 192, 192);
+  text-align: center;
+  justify-items: center;
+  background-color: white;
+  width: 380px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.input-group {
+  display: grid;
+  text-align: left;
+  width: 310px;
+  padding: 1rem;
+}
+h3 {
+  font-size: 22px;
+}
+span {
+  font-size: .7rem;
+  font-style: italic;
+  color: rgb(109, 109, 109);
+}
+label {
+  margin-bottom: .5rem;
+  color: rgb(109, 109, 109);
+}
+#create {
+  display: inline;
+  margin-top: 1rem;
+  background-color: rgb(23, 122, 221);
+  color: white;
+  border: 1px solid ;
+  border-radius: 5px;
+  height: 45px;
+  width: 310px; 
+  font-size: 16px;
+  vertical-align: sub;
+  cursor: pointer;
+}
+.form-footer {
+  margin: 3rem 1rem 1rem 1rem;
+  font-size: .8rem;
+  font-style: italic;
+}
+.bot {
+  margin-top: 3rem;
+  font-size: .6rem;
+}
+footer {
+  margin-top: 2rem;
+  display: grid;
+  text-align: center;
+}
+footer a {
+  font-size: 12px;
+}
